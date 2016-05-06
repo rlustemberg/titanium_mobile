@@ -1592,7 +1592,7 @@ MAKE_SYSTEM_PROP(VIDEO_TIME_OPTION_EXACT,MPMovieTimeOptionExact);
                 }
             }
             
-            float cameraAspectRatio = 4.0 / 3.0;
+            float cameraAspectRatio = 3.0 / 2.3;
             float camViewHeight = screenSize.width * cameraAspectRatio;
             float scale = screenSize.height/camViewHeight;
             
