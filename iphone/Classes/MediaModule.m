@@ -1591,7 +1591,7 @@ MAKE_SYSTEM_PROP(VIDEO_TIME_OPTION_EXACT,MPMovieTimeOptionExact);
                     screenSize = CGSizeMake(screenSize.height, screenSize.width);
                 }
             }
-            
+            //aspect radio hack
             float cameraAspectRatio = 3.0 / 2.3;
             float camViewHeight = screenSize.width * cameraAspectRatio;
             float scale = screenSize.height/camViewHeight;
